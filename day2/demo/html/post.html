@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<form action="http://192.168.1.49:3000/dopost" method="post" enctype="multipart/form-data">
+    <p>
+        姓名：
+        <input type="text" name="name"/>
+    </p>
+    <p>
+        性别：
+        男：<input type="radio" name="sex" value="男"/>
+        女：<input type="radio" name="sex" value="女"/>
+    </p>
+    <p>
+        爱好：
+        睡觉：<input type="checkbox" value="睡觉" name="hobby"/>
+        吃饭：<input type="checkbox" value="吃饭" name="hobby"/>
+        打球：<input type="checkbox" value="打球" name="hobby"/>
+    </p>
+    <p>
+        文件上传：
+        <input type="file" name="img"/>
+        <!--<input type="file" name="img2"/>-->
+    </p>
+    <input type="submit"/>
+</form>
+</body>
+</html>
