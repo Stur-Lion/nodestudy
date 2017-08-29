@@ -1,7 +1,9 @@
 /* 路由 */
 
 exports.shouIndex = function(req,res){
-    res.send("这是首页")
+    res.render('index',{
+        date:[132,456,789]
+    })
 }
 
 
