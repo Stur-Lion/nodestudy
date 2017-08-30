@@ -15,7 +15,7 @@ app.use(express.static('./public'))
 
 
 //首页路由
-app.get('/',router.shouIndex)
+app.get('/',router.showIndex)
 app.get('/:albumname',router.showAlbum)
 
 
