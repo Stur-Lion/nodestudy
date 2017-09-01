@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/bootstrap.css"/>
+    <link rel="stylesheet" href="/css/style.css"/>
+    <script src="/js/jquery-3.1.1.min.js"></script>
+    <script src="/js/bootstrap.js"></script>
+</head>
+<body>
+<div class="row">
+<% for(var i=0;i < imgesUrl.length;i++) { %>
+    <div class="col-xs-6 col-md-3">
+        <a href="#" class="thumbnail">
+            <img src="<%= imgesUrl[i] %>">
+        </a>
+    </div>
+<% } %>
+</div>
+</body>
+</html>

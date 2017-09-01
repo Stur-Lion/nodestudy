@@ -9,9 +9,27 @@ exports.showIndex = function(req,res){
     })
 }
 
+exports.showImges = function(req,res){
+    if(req.params.albumname=='favicon.ico'){
+        return
+    }
+    files.showImage(function(allbluma){
+        console.log(allbluma);
+        if(allbluma==[]){
+            res.render('404',{
+
+            })
+        }else{
+            res.render('images',{
+                imgesUrl:allbluma
+            })
+        }
+    },req,res)
+}
+
 
 
 
 exports.showAlbum = function(req,res){
-    res.send("相册" + req.params.albumname);
+    res.send("未找到此相册");
 }
