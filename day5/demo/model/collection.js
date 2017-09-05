@@ -1,3 +1,3 @@
 module.exports = {
-    dblion:"mongodb://localhost:27017/lion"
+    dburl:"mongodb://localhost:27017/lion"
 }

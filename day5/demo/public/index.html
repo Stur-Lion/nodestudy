@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <style>
+        body{
+            padding: 20px;
+        }
+        #box{
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+<div id="box">
+    <input class="btn btn-default" type="button" id="btn_all" value="显示所有">
+
+    <div class="form-group">
+        <label for="exampleInputEmail1">姓名</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="name">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputPassword1">留言</label>
+        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="message ">
+    </div>
+    <button class="btn btn-primary" id="btn_submit">提交</button>
+    <p class="bg-success  hide">提交成功</p>
+    <p class="bg-danger hide">提交失败</p>
+    <nav>
+        <ul id="list">
+
+        </ul>
+    </nav>
+</div>
+</body>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script>
+    $(function(){
+        $('#btn_submit').on('click',function(){
+            var val1 = $('#exampleInputEmail1').val()
+            var val2 = $('#exampleInputPassword1').val()
+            if(val1==''||val2==''){
+                return
+            }
+            $.post('/addMess',{
+                name:val1,
+                mess:val2
+            },function(result){
+                console.log(result);
+                if(result.retcode==1){
+                    $('.bg-success').removeClass('hide')
+                    $('#btn_all').click()
+                }else{
+                    $('.bg-danger').removeClass('hide')
+                }
+            })
+        })
+        $('#btn_all').on('click',function(){
+            $.post('/allMess',function(result){
+                console.log(result);
+                if(result.retcode==1){
+                    var list_html = ''
+                    for(var i=0;i<result.data.length;i++){
+                        var data = result.data[i]
+                        list_html+='<li>' +
+                                    '<p>姓名：'+data.name+'</p>' +
+                                    '<div>内容：'+data.mess+'</div> </li>';
+                    }
+                    $('#list').html(list_html)
+                }
+            })
+        })
+    })
+</script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
