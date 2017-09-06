@@ -46,4 +46,4 @@ app.post('/allMess',function(req,res){
 
 
 
-app.listen(8080)
+app.listen(8000)
