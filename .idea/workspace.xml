@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdf754e2-0a27-439e-9a19-abece8884f6b" name="默认的" comment="修改">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day5/demo/03.js" afterPath="$PROJECT_DIR$/day5/demo/03.js" />
+    <list default="true" id="cdf754e2-0a27-439e-9a19-abece8884f6b" name="默认的" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/昊奇标签.docx" afterPath="$PROJECT_DIR$/other/昊奇标签.docx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day5/demo/public/index.html" afterPath="$PROJECT_DIR$/day5/demo/public/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -24,14 +24,14 @@
     <favorites_list name="node学习" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4193739">
+    <splitter split-orientation="horizontal" split-proportion="0.49372938">
       <split-first>
         <leaf>
           <file leaf-file-name="03.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/day5/demo/03.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.22024472">
-                  <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.538376">
+                  <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                   </folding>
@@ -46,10 +46,11 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/day5/demo/public/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.86206895">
-                  <caret line="81" column="38" selection-start-line="81" selection-start-column="38" selection-end-line="81" selection-end-column="38" />
+                <state vertical-scroll-proportion="0.47931033">
+                  <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
                   <folding>
                     <element signature="e#1771#2359#0" expanded="false" />
+                    <element signature="e#3021#3419#0" expanded="false" />
                     <element signature="e#3635#3899#0" expanded="false" />
                   </folding>
                 </state>
@@ -145,8 +146,8 @@
         <option value="$PROJECT_DIR$/day5/demo/02.js" />
         <option value="$PROJECT_DIR$/day5/demo/model/collection.js" />
         <option value="$PROJECT_DIR$/day5/demo/model/dbs.js" />
-        <option value="$PROJECT_DIR$/day5/demo/public/index.html" />
         <option value="$PROJECT_DIR$/day5/demo/03.js" />
+        <option value="$PROJECT_DIR$/day5/demo/public/index.html" />
       </list>
     </option>
   </component>
@@ -432,7 +433,13 @@
       <option name="project" value="LOCAL" />
       <updated>1504662788776</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="留言本增删改查">
+      <created>1504671828381</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1504671828381</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -448,7 +455,7 @@
       <window_info id="消息" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24920128" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.09850905" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19329074" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -477,7 +484,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改" />
+    <MESSAGE value="留言本增删改查" />
+    <option name="LAST_COMMIT_MESSAGE" value="留言本增删改查" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -515,23 +523,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day5/demo/public/index.html">
+    <entry file="file://$PROJECT_DIR$/day5/demo/03.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.86206895">
-          <caret line="81" column="38" selection-start-line="81" selection-start-column="38" selection-end-line="81" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.538376">
+          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
           <folding>
-            <element signature="e#1771#2359#0" expanded="false" />
-            <element signature="e#3635#3899#0" expanded="false" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day5/demo/03.js">
+    <entry file="file://$PROJECT_DIR$/day5/demo/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22024472">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.47931033">
+          <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#1771#2359#0" expanded="false" />
+            <element signature="e#3021#3419#0" expanded="false" />
+            <element signature="e#3635#3899#0" expanded="false" />
           </folding>
         </state>
       </provider>

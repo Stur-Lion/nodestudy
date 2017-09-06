@@ -114,7 +114,9 @@
                     $('.pagination').html(page_html);
                     $('.pagination').on('click','li',function(){
                         var index = $(this).attr('data_index');
-                        fenye(index)
+                        if(index){
+                            fenye(index)
+                        }
                     })
                 }
             })
