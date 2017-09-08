@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdf754e2-0a27-439e-9a19-abece8884f6b" name="默认的" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day5/demo/04.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day5/demo/05.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day5/demo/06.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/other/昊奇标签.docx" afterPath="$PROJECT_DIR$/other/昊奇标签.docx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day5/demo/public/index.html" afterPath="$PROJECT_DIR$/day5/demo/public/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="node学习.iws" />
@@ -24,14 +26,50 @@
     <favorites_list name="node学习" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.49372938">
+    <splitter split-orientation="horizontal" split-proportion="0.3480243">
       <split-first>
         <leaf>
-          <file leaf-file-name="03.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="03.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/day5/demo/03.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.538376">
-                  <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="04.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/day5/demo/04.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="05.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/day5/demo/05.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="06.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/day5/demo/06.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.024471635">
+                  <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                   </folding>
@@ -46,8 +84,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/day5/demo/public/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.47931033">
-                  <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+                <state vertical-scroll-proportion="0.25287357">
+                  <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
                   <folding>
                     <element signature="e#1771#2359#0" expanded="false" />
                     <element signature="e#3021#3419#0" expanded="false" />
@@ -86,8 +124,8 @@
       <list>
         <option value="package_json" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="Html5" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -97,9 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/day2/demo/05.js" />
-        <option value="$PROJECT_DIR$/day2/demo/text.js" />
-        <option value="$PROJECT_DIR$/day2/demo/text.txt" />
         <option value="$PROJECT_DIR$/day2/demo/06.js" />
         <option value="$PROJECT_DIR$/day2/demo/dopost.js" />
         <option value="$PROJECT_DIR$/day2/demo/07.js" />
@@ -148,6 +183,9 @@
         <option value="$PROJECT_DIR$/day5/demo/model/dbs.js" />
         <option value="$PROJECT_DIR$/day5/demo/03.js" />
         <option value="$PROJECT_DIR$/day5/demo/public/index.html" />
+        <option value="$PROJECT_DIR$/day5/demo/04.js" />
+        <option value="$PROJECT_DIR$/day5/demo/05.js" />
+        <option value="$PROJECT_DIR$/day5/demo/06.js" />
       </list>
     </option>
   </component>
@@ -193,8 +231,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -259,28 +297,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node学习" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodestudy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="day5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -302,20 +318,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\nodestudy\day5\demo" />
       <recent name="C:\nodeStudy\day5\demo\public" />
       <recent name="C:\nodeStudy\day5\demo\model" />
       <recent name="C:\nodeStudy\day5\demo" />
       <recent name="C:\nodeStudy\day4\demo\day4\public\js" />
-      <recent name="C:\nodeStudy\day4\demo\littlePicture\views" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.03.js">
-    <configuration default="false" name="01.helloworld.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="01.helloworld.js" working-dir="$PROJECT_DIR$/day1/demo">
-      <method />
-    </configuration>
-    <configuration default="false" name="01.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="01.js" working-dir="$PROJECT_DIR$/day4/demo/day4">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Node.js.05.js">
     <configuration default="false" name="02.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="02.js" working-dir="$PROJECT_DIR$/day5/demo">
       <method />
     </configuration>
@@ -323,6 +333,12 @@
       <method />
     </configuration>
     <configuration default="false" name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/node学习/day5/demo/public/index.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="04.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="04.js" working-dir="$PROJECT_DIR$/day5/demo">
+      <method />
+    </configuration>
+    <configuration default="false" name="05.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="05.js" working-dir="$PROJECT_DIR$/day5/demo">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -400,19 +416,19 @@
       <item index="6" class="java.lang.String" itemvalue="Node.js.12.js" />
       <item index="7" class="java.lang.String" itemvalue="Node.js.13.js" />
       <item index="8" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-      <item index="9" class="java.lang.String" itemvalue="Node.js.01.helloworld.js" />
-      <item index="10" class="java.lang.String" itemvalue="Node.js.01.js" />
-      <item index="11" class="java.lang.String" itemvalue="Node.js.02.js" />
-      <item index="12" class="java.lang.String" itemvalue="Node.js.03.js" />
-      <item index="13" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+      <item index="9" class="java.lang.String" itemvalue="Node.js.02.js" />
+      <item index="10" class="java.lang.String" itemvalue="Node.js.03.js" />
+      <item index="11" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+      <item index="12" class="java.lang.String" itemvalue="Node.js.04.js" />
+      <item index="13" class="java.lang.String" itemvalue="Node.js.05.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.03.js" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.02.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.01.helloworld.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.01.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.05.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.04.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.03.js" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.02.js" />
       </list>
     </recent_temporary>
   </component>
@@ -446,22 +462,22 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.111821085" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.09158679" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15705128" sideWeight="0.5026022" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="消息" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24920128" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937366" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19329074" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20766774" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16666667" sideWeight="0.49739778" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="消息" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="文档" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="92" y="92" width="1736" height="856" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -492,17 +508,24 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/other/Cproject.js">
+    <entry file="file://$PROJECT_DIR$/day5/demo/03.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="93" column="22" selection-start-line="93" selection-start-column="22" selection-end-line="93" selection-end-column="22" />
+          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#423#2310#0" expanded="false" />
-            <element signature="e#2374#2465#0" expanded="false" />
-            <element signature="e#2527#2964#0" expanded="false" />
-            <marker date="1504658903624" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1504658903624" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day5/demo/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1771#2359#0" expanded="false" />
+            <element signature="e#3021#3419#0" expanded="false" />
+            <element signature="e#3635#3899#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -525,7 +548,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day5/demo/03.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.538376">
+        <state vertical-scroll-proportion="0.0">
           <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -535,12 +558,103 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day5/demo/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47931033">
-          <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#1771#2359#0" expanded="false" />
             <element signature="e#3021#3419#0" expanded="false" />
             <element signature="e#3635#3899#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day5/demo/model/collection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day5/demo/model/dbs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="77" column="48" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/other/Cproject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="93" column="22" selection-start-line="93" selection-start-column="22" selection-end-line="93" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day5/demo/model/collection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day5/demo/model/dbs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="77" column="48" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day5/demo/03.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day5/demo/04.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day5/demo/05.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day5/demo/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25287357">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="e#1771#2359#0" expanded="false" />
+            <element signature="e#3021#3419#0" expanded="false" />
+            <element signature="e#3635#3899#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day5/demo/06.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.024471635">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
