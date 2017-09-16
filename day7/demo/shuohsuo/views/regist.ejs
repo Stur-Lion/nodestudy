@@ -69,6 +69,10 @@
                 type:'post',
                 success:function(res){
                     console.log(res);
+                    if(res.retcode==1){
+                        alert('添加成功')
+                        location.reload()
+                    }
                 }
             })
         })
