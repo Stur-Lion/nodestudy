@@ -76,52 +76,52 @@
                 }
             })
         })
-        //分页
-        function fenye(page){
-            $.get('/du?page='+(page-1),function(result){
-                if(result.retcode==1){
-                    var list_html = ''
-                    for(var i=0;i<result.data.length;i++){
-                        var data = result.data[i]
-                        list_html+='<li>' +
-                                '<p>姓名：'+data.name+'</p>' +
-                                '<div>内容：'+data.mess+'</div><a class="dele" dele_id="'+data._id+'">删除</a> </li>';
-                    }
-                    $('#list').html(list_html);
-                    //删除
-                    $('#list').on('click','.dele',function(){
-                        var id=$(this).attr('dele_id')
-                        $.get('/shanchu',{id:id},function(result){
-                            console.log(result);
-                            if(result.retcode==1){
-                                alert('删除成功')
-                                location.reload()
-                            }
-                        })
-                    })
-
-
-                    var page_html='<li><a href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>';
-                    var flag = ''
-                    for(var i=1;i<=result.pageNum;i++){
-                        if(page==i){
-                            flag='active'
-                        }
-                        page_html+='<li class="'+flag+'" data_index="'+i+'"><a href="#">'+i+'</a></li>'
-                        flag=''
-                    }
-                    page_html+='<li><a href="#" aria-label="Next"><span aria-hidden="true">&raquo;</span></a></li>'
-                    $('.pagination').html(page_html);
-                    $('.pagination').on('click','li',function(){
-                        var index = $(this).attr('data_index');
-                        if(index){
-                            fenye(index)
-                        }
-                    })
-                }
-            })
-        }
-        fenye(1)
+//        //分页
+//        function fenye(page){
+//            $.get('/du?page='+(page-1),function(result){
+//                if(result.retcode==1){
+//                    var list_html = ''
+//                    for(var i=0;i<result.data.length;i++){
+//                        var data = result.data[i]
+//                        list_html+='<li>' +
+//                                '<p>姓名：'+data.name+'</p>' +
+//                                '<div>内容：'+data.mess+'</div><a class="dele" dele_id="'+data._id+'">删除</a> </li>';
+//                    }
+//                    $('#list').html(list_html);
+//                    //删除
+//                    $('#list').on('click','.dele',function(){
+//                        var id=$(this).attr('dele_id')
+//                        $.get('/shanchu',{id:id},function(result){
+//                            console.log(result);
+//                            if(result.retcode==1){
+//                                alert('删除成功')
+//                                location.reload()
+//                            }
+//                        })
+//                    })
+//
+//
+//                    var page_html='<li><a href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>';
+//                    var flag = ''
+//                    for(var i=1;i<=result.pageNum;i++){
+//                        if(page==i){
+//                            flag='active'
+//                        }
+//                        page_html+='<li class="'+flag+'" data_index="'+i+'"><a href="#">'+i+'</a></li>'
+//                        flag=''
+//                    }
+//                    page_html+='<li><a href="#" aria-label="Next"><span aria-hidden="true">&raquo;</span></a></li>'
+//                    $('.pagination').html(page_html);
+//                    $('.pagination').on('click','li',function(){
+//                        var index = $(this).attr('data_index');
+//                        if(index){
+//                            fenye(index)
+//                        }
+//                    })
+//                }
+//            })
+//        }
+//        fenye(1)
     })
 </script>
 </html>

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>班级说说-全部说说</title>
+    <link rel="stylesheet" href="/css/bootstrap.css"/>
+    <script src="/js/jquery-3.1.1.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+</head>
+<body>
+<% include header.ejs %>
+<% if(login==1){ %>
+<div>
+    <div class="container">
+        <% for(var i=0;i<data.length;i++){ %>
+        <div class="form-group" style="max-width: 500px">
+            <label for="">用户名：<%= data[i].name %></label>
+            <div>
+                <span>标题：<%= data[i].tite %></span>
+                <div>内容：<%= data[i].content %></div>
+                <div>时间：<%= data[i].dataTime %></div>
+            </div>
+        </div>
+        <% } %>
+    </div>
+</div>
+<% } %>
+
+</body>
+</html>
+<script>
+</script>

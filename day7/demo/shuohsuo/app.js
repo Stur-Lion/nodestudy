@@ -19,6 +19,8 @@ app.post('/doIndex',shuo.doIndex)//登录
 app.post('/outlogin',shuo.outLogin)//退出登录
 app.get('/regist',shuo.showRegit)//注册页面
 app.post('/doregist',shuo.showRegited)//注册
+app.post('/referMess',shuo.referMess)//提交留言
+app.get('/allMess',shuo.allMess)//全部说说
 
 
 

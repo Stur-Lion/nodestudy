@@ -67,3 +67,31 @@ exports.showRegited = function(req,res){
     });
 }
 
+//提交留言
+exports.referMess=function(req,res){
+    var form = new formidable.IncomingForm();
+    form.parse(req, function(err, fields, files) {
+        var data={
+            name:req.session.name,
+            dataTime:new Date(),
+            tite:fields.title,
+            content:fields.content
+        }
+        db.insertOne('messList',data,function(err,result){
+            res.json({data:{},info:['留言成功'],retcode:1})
+        })
+    });
+}
+
+//全部说说页面
+exports.allMess=function(req,res){
+    db.find('messList',{},function(err,result){
+        console.log(result);
+        res.render('allMess',{
+            login:req.session.login,
+            usernmae:req.session.name,
+            active:'all',
+            data:result
+        })
+    });
+}
