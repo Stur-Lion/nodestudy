@@ -9,7 +9,8 @@ var gm = require("gm");
 exports.showIndex=function(req,res){
     res.render('login',{
         login:req.session.login,
-        usernmae:req.session.name
+        usernmae:req.session.name,
+        active:'login'
     })
 }
 
@@ -47,7 +48,10 @@ exports.outLogin=function(req,res){
 
 //注册页面
 exports.showRegit = function(req,res){
-    res.render('regist',{})
+    res.render('regist',{
+        login:0,
+        active:'regist'
+    })
 }
 
 //注册
