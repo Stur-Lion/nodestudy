@@ -43,14 +43,25 @@
                 <li><a href="#">成员列表</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="/regist">注册</a></li>
-                <li><a href="#">登录</a></li>
+                <% if(login==1){ %>
+                <li><a>你好：<%= usernmae %></a></li>
+                <li id="out_login"><a>退出登录</a></li>
+                <% }else { %>
+                    <li><a href="/regist">注册</a></li>
+                    <li class="active"><a href="#">登录</a></li>
+                <% } %>
+
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
 
 <div>
+    <% if(login==1){ %>
+    <div class="container">
+        <h1>欢迎登录班级说说！</h1>
+    </div>
+    <% }else { %>
     <div class="container" style="padding: 0 300px">
         <div class="form-group" style="max-width: 500px">
             <label for="">用户名：</label>
@@ -67,6 +78,58 @@
         </div>
         <button type="submit" class="btn btn-default" id="submit_btn">登录</button>
     </div>
+    <% } %>
 </div>
 </body>
 </html>
+<script>
+    $(function(){
+        $('#submit_btn').on('click',function(){
+            $.ajax({
+                url:'/doIndex',
+                dataType:'json',
+                data:{
+                    name:$('#name').val(),
+                    password:$('#pass').val(),
+                },
+                type:'post',
+                success:function(res){
+                    console.log(res);
+                    if(res.retcode==1){
+                        alert('登录成功')
+                        location.href='/'
+                    }
+                }
+            })
+        })
+
+        $('#out_login').on('click',function(){
+            $.ajax({
+                url:'/outlogin',
+                dataType:'json',
+                type:'post',
+                success:function(res){
+                    console.log(res);
+                    if(res.retcode==1){
+                        location.href='/'
+                    }
+                }
+            })
+        })
+    })
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -28,8 +28,8 @@
                 <li><a href="#">成员列表</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">注册</a></li>
-                <li><a href="#">登录</a></li>
+                <li class="active"><a href="#">注册</a></li>
+                <li><a href="/">登录</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
@@ -37,6 +37,7 @@
 
 <div>
     <div class="container">
+        <div style="width: 500px;margin: 0 auto">
             <div class="form-group">
                 <label for="exampleInputEmail1">用户名：</label>
                 <input type="text" class="form-control" id="name">
@@ -51,6 +52,7 @@
                 </label>
             </div>
             <button type="submit" class="btn btn-default" id="submit_btn">提交</button>
+        </div>
     </div>
 </div>
 
@@ -70,8 +72,8 @@
                 success:function(res){
                     console.log(res);
                     if(res.retcode==1){
-                        alert('添加成功')
-                        location.reload()
+                        alert('注册成功')
+                        location.href='/'
                     }
                 }
             })
