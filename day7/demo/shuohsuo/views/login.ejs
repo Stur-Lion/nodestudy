@@ -43,6 +43,21 @@
             </div>
             <button type="button" class="btn btn-default" id="btn_mess_submit">提交</button>
         </form>
+        <br/>
+        <br/>
+        <h2>我发表的说说</h2>
+        <ul>
+            <% for(var i=0;i<data.length;i++){ %>
+            <li class="form-group" style="max-width: 500px">
+                <label for="">用户名：<%= data[i].name %></label>
+                <div>
+                    <span>标题：<%= data[i].tite %></span>
+                    <div>内容：<%= data[i].content %></div>
+                    <div>时间：<%= data[i].dataTime %></div>
+                </div>
+            </li>
+            <% } %>
+        </ul>
     </div>
     <% }else { %>
     <div class="container" style="padding: 0 300px">

@@ -21,6 +21,7 @@ app.get('/regist',shuo.showRegit)//注册页面
 app.post('/doregist',shuo.showRegited)//注册
 app.post('/referMess',shuo.referMess)//提交留言
 app.get('/allMess',shuo.allMess)//全部说说
+app.get('/userList',shuo.userList)//成员列表
 
 
 
@@ -40,4 +41,4 @@ app.get('/allMess',shuo.allMess)//全部说说
 
 
 
-app.listen(8000)
+app.listen(8080)

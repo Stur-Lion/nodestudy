@@ -7,10 +7,13 @@ var gm = require("gm");
 
 //首页登录页面
 exports.showIndex=function(req,res){
-    res.render('login',{
-        login:req.session.login,
-        usernmae:req.session.name,
-        active:'login'
+    db.find('messList',{'name':req.session.name},function(err,result){
+        res.render('login',{
+            login:req.session.login,
+            usernmae:req.session.name,
+            active:'login',
+            data:result
+        })
     })
 }
 
@@ -86,7 +89,6 @@ exports.referMess=function(req,res){
 //全部说说页面
 exports.allMess=function(req,res){
     db.find('messList',{},function(err,result){
-        console.log(result);
         res.render('allMess',{
             login:req.session.login,
             usernmae:req.session.name,
@@ -95,3 +97,28 @@ exports.allMess=function(req,res){
         })
     });
 }
+
+//成员列表
+exports.userList = function(req,res){
+    db.find('user',{},function(err,result){
+        res.render('userList',{
+            login:req.session.login,
+            usernmae:req.session.name,
+            active:'userList',
+            data:result
+        })
+    });
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
