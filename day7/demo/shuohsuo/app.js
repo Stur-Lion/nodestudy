@@ -8,11 +8,9 @@ app.use(session({
     saveUninitialized: true
 }))
 
-
 //模板引擎级静态资源
 app.use(express.static('./public'))
 app.set('view engine','ejs')
-
 
 app.get('/',shuo.showIndex)//进入首页
 app.post('/doIndex',shuo.doIndex)//登录
@@ -22,23 +20,5 @@ app.post('/doregist',shuo.showRegited)//注册
 app.post('/referMess',shuo.referMess)//提交留言
 app.get('/allMess',shuo.allMess)//全部说说
 app.get('/userList',shuo.userList)//成员列表
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 app.listen(8080)
