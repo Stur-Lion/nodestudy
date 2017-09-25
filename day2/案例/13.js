@@ -28,10 +28,13 @@ var server = http.createServer(function(req,res){
             var ttt = sd.format(new Date(), 'YYYYMMDDHHmmss');
             var ran = parseInt(Math.random() * 89999 + 10000);
             var extname = path.extname(files.tupian.name);
+            console.log(files.tupian.name);
             //执行改名
             var oldpath = __dirname + "/" + files.tupian.path;
             //新的路径由三个部分组成：时间戳、随机数、拓展名
             var newpath = __dirname + "/uploads/" + ttt + ran + extname;
+            console.log(oldpath);
+            console.log(newpath);
 
             //改名
             fs.rename(oldpath,newpath,function(err){
@@ -54,4 +57,4 @@ var server = http.createServer(function(req,res){
     }
 });
 
-server.listen(80,"192.168.41.36");
+server.listen(3000,"192.168.1.27");
