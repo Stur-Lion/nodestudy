@@ -20,4 +20,4 @@ io.on("connection",function(socket){
 	});
 });
 
-server.listen(3000,"192.168.41.30");
+server.listen(3000,"192.168.1.27");
