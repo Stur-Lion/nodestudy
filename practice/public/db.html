@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>mongoDB</title>
+    <script src="./js/jquery-1.11.2.min.js"></script>
+</head>
+<body>
+    <button id="insert">点击插入</button>
+    <button id="dele">点击删除</button>
+    <button id="update">点击修改</button>
+    <button id="all">获取所有</button>
+
+</body>
+<script>
+$(function(){
+    $('#insert').click(function(){
+        $.ajax({
+            url:'/insetOne',
+            data:{name:'lion',age:Math.random()*100},
+            type:"POST",
+            dataType:'JSON',
+            success:function(res){
+                console.log(res)
+            }
+        })
+    })
+    $('#dele').click(function(){
+        $.ajax({
+            url:'/deleOne',
+            data:{age:20},
+            type:"POST",
+            dataType:'JSON',
+            success:function(res){
+                console.log(res)
+            }
+        })
+    })
+    $('#update').click(function(){
+        $.ajax({
+            url:'/updateOne',
+            data:{
+                oldname:'lion',
+                newname:'ynn'
+            },
+            type:"POST",
+            dataType:'JSON',
+            success:function(res){
+                console.log(res)
+            }
+        })
+    })
+    $('#all').click(function(){
+        console.log(0);
+        $.ajax({
+            url:'/all',
+            data:{name:'lion'},
+            type:"POST",
+            dataType:'JSON',
+            success:function(res){
+                console.log(res)
+            }
+        })
+    })
+})
+</script>
+</html>

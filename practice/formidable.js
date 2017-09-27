@@ -19,7 +19,7 @@ http.createServer(function(req, res) {
             var oldname = __dirname+'/'+files.file.path
             var newname = __dirname+'/uploads/'+ time+ran+extname
             fs.rename(oldname,newname,function(err){
-                console.log(111);https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=0&rsv_idx=1&tn=98012088_5_dg&ch=16&wd=360极速浏览器导入谷歌浏览器的标签&rsv_pq=a2c2b97d000015da&rsv_t=50228r55N444poAUtSZwqgebOzEq%2B3bztgUAUj%2Fab6mpvHCiNWuB%2F4KdlEs&rqlang=cn&rsv_enter=1&rsv_sug3=9&rsv_sug1=4&rsv_sug7=100&rsv_sug2=0&inputT=26264&rsv_sug4=27558
+                console.log(111);
                 if(err){
                     console.log(222);
                 }
