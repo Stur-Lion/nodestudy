@@ -21,5 +21,28 @@
 			console.log("服务器说：" + msg);
 		});
 	</script>
+	<script type="text/javascript">
+		function toDecimal(value,x) {
+        	var f = parseFloat(value);
+        	if (isNaN(f)) {
+            	return false;
+        	}
+        	var chengshu = Math.pow(10,x)
+        	var f = Math.round(value*chengshu)/chengshu;
+        	console.log(f)
+        	var s = f.toString();
+        	var rs = s.indexOf('.');
+        	if (rs < 0) {
+            	rs = s.length;
+            	s += '.';
+        	}
+        	while (s.length <= rs + x) {
+            	s += '0';
+        	}
+        	return s;
+    	}
+    	var a = toDecimal2(3.12589,3)
+    	console.log(a)
+	</script>
 </body>
 </html>
