@@ -16,6 +16,7 @@ var animalSchema = new mongoose.Schema({
 });
 
 animalSchema.methods.zhaotonglei = function(callback){
+    console.log(this);
     this.model('Animal').find({"type":this.type},callback);
 }
 
